@@ -1,0 +1,32 @@
+.headPict{
+  height:rem(400px);
+  margin-left: rem(180px);
+  margin-right: rem(190px);
+}
+.headPictTextHolder{
+  margin-top: rem(100px);
+  margin-left: rem(140px);
+  text-align: right;
+  width: rem(250px);
+}
+.headPictTextHolder>h1{
+  font-size:2.5rem;
+  font-family: Chunk;
+  color: #e7e8ea;
+}
+.headPictTextHolder>h2{
+  color:#d7d7e3;
+  font-weight: 300;
+  font-family:Alexandria;
+  font-size:3rem;
+}
+.headPictTextHolder>h2>span{
+  font-weight: 800;
+}
+.headPictTextHolder>p{
+  font-family:Colaborate;
+  color:#e7e8ea;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  font-weight: 200;
+}

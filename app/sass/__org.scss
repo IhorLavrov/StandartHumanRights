@@ -1,0 +1,68 @@
+@import "_variables";
+.organisator{
+  padding:rem(150px) rem(50px) rem(100px) rem(50px);
+  background: #fbfcfd;
+}
+.organisator>h1{
+ font-size: rem(60px);
+ text-align: center;
+}
+.organisator>img{
+  display:block;
+  margin: rem(70px) auto;
+}
+.orgInfo{
+  margin:0 auto;
+  width: rem(860px);
+  margin-bottom:rem(170px);
+}
+.orgInfoH1{
+  border-bottom:1px solid #ededed;
+  padding-bottom:rem(100px);
+  margin-left:rem(75px);
+}
+.partnersRow{
+  margin: rem(30px) 0 0 0;
+  width: rem(1820px);
+  padding-bottom: rem(35px);
+  border-bottom: 1px solid #ededed;
+}
+.partnersBlock{
+  margin-left: rem(60px);
+  width: rem(840px);
+}
+.partnersLogo{
+  width: rem(200px);
+  height: rem(200px);
+  -webkit-border-radius:rem(100px);
+  -moz-border-radius:rem(100px);
+  border-radius:rem(100px);
+  border: 1px solid #ededed;
+  box-shadow: 0 rem(29px) rem(46px) rgba(122,135,143,0.66);
+
+}
+.parnter1{
+   background: url("../img/patner1.png")no-repeat;
+ }
+.parnter2{
+  background: url("../img/partner2.png")no-repeat;
+}
+.parnter3{
+  background: url("../img/partner3.png")no-repeat;
+}
+.parnter4{
+  background: url("../img/partner4.png")no-repeat;
+}
+.partnersDescription{
+  width: rem(500px);
+  vertical-align: top;
+  margin-left: rem(50px);
+  margin-top: rem(25px);
+}
+.partnersDescription>h1{
+  font-size: rem(35px);
+}
+.partnersDescription>p{
+  font-size: rem(20px);
+  margin-top:rem(20px);
+}

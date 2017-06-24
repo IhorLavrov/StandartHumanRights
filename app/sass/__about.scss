@@ -1,0 +1,82 @@
+@import "_variables";
+.aboutCourse{
+  text-align: center;
+  margin:rem(100px) rem(50px);
+}
+.aboutCourse>h1{
+  font-size: rem(60px);
+}
+.aboutCourseDivider1{
+  width:rem(140px);
+  height:1px;
+  margin: rem(50px)auto;
+  display: block;
+}
+.aboutCourseMainText{
+  margin: 0  rem(260px) 0 rem(260px);
+  font-size: rem(37px);
+  border-bottom: 1px solid #ededed;
+  padding-bottom:rem(100px);
+}
+.aboutCourseDividerRes{
+  display:none;
+}
+.aboutRow{
+  margin: rem(115px)rem(260px) 0 rem(260px);
+  text-align: left;
+  padding-bottom: rem(85px);
+}
+
+.aboutRow:nth-child(4){
+  border-bottom:1px solid #ededed;
+}
+.aboutCourse1:nth-child(2){
+  margin-left:rem(135px);
+}
+.aboutCourse1{
+  width: rem(572px);
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+}
+.aboutCourse1>h1{
+  font-size: rem(35px);
+}
+.aboutCourse1>p{
+  margin-top:rem(50px);
+  font-size:rem(20px);
+}
+.aboutCourse1>ul{
+  list-style-image: url(../img/ulMarker.png);
+  font-size:rem(20px);
+  margin-top: rem(50px);
+}
+.aboutCourse1>ul>li{
+  font-size:rem(20px);
+  text-align: left;
+  padding-left:rem(35px);
+}
+.aboutCourseDivider3{
+  margin: rem(50px) 0 rem(50px) rem(200px);
+}
+.durability{
+  text-align: center;
+  margin: rem(100px) 0 0 0;
+}
+.durability>h1{
+  color:#c98c66;
+  font-size: rem(35px);
+}
+.durability>p{
+  font-size:rem(20px);
+  margin-top: rem(35px);
+}
+.durability>button{
+  background:#005f86;
+  width: rem(500px);
+  letter-spacing: rem(2px);
+  font-size: rem(17px);
+  padding: rem(30px) rem(50px);
+  margin-top: rem(40px);
+  box-shadow:0 rem(22px) rem(68px) rgba(33, 86, 35, 0.54);
+}

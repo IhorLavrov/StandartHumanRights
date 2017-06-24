@@ -1,0 +1,9 @@
+@function rem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+
+@function textrem($size){
+  $remSize: $size/1pt*1.3333333px;
+  @return ($remSize/16px*1rem);
+}

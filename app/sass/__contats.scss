@@ -1,0 +1,57 @@
+@import "_variables";
+.contacts{
+  padding-top: rem(30px);
+}
+.horizontalDivider{
+  width:rem(150px);
+  display: block;
+  margin:rem(50px) auto;
+  height: 1px;
+}
+.contactsHolder{
+  margin: rem(80px) auto;
+  width: rem(1310px);
+  text-align: justify;
+}
+.contactsHolder:after{
+  display: inline-block;
+  content: "";
+  width: 100%;
+}
+.contactsDiv{
+  text-align: center;
+  vertical-align: top;
+}
+.contactsDiv>h1{
+  font-size:rem(35px);
+
+}
+.infoText{
+  text-align:center;
+  font-size:rem(24px);
+}
+
+.apply{
+  width: rem(1920px);
+  height: rem(300px);
+  background: url("../img/applyBG.png");
+  padding-top: rem(200px);
+}
+.apply>button{
+  margin: 0 auto;
+  display: block;
+  font-size:rem(23px);
+  color:black;
+  background:white;
+  padding:rem(25px) rem(50px);
+  letter-spacing:rem(3px);
+  box-shadow: 0 rem(29px) rem(84px) rgba(0, 0, 0, 0.75);
+}
+.apply>p{
+  font-size:rem(16px);
+ text-align: center;
+  margin:rem(50px) auto;
+  width: rem(400px);
+  color:white;
+  opacity:0.5;
+}

@@ -1,0 +1,67 @@
+@import "_variables";
+.firstScreen{
+  width: 100%;
+  max-width: 1920px;
+  background: url(../img/mainBG.png);
+}
+header{
+  margin: 0 rem(50px);
+  width: 94.7%;
+  max-width: 1820px;
+}
+.logoImg{
+  float:left;
+  margin-top:rem(20px);
+  width: rem(310px);
+  height: rem(120px);
+  display: inline-block;
+}
+
+.headerLine{
+  display: inline-block;
+  float:right;
+  width:rem(1500px);
+  margin-top: rem(40px);
+}
+nav{
+  float:right;
+  margin-top: rem(20px);
+  height: rem(85px);
+
+}
+nav>ul{
+  margin: rem(20px)0 0 0;
+  display:inline-block
+}
+nav>ul>img{
+  display: none;
+}
+nav>ul>li{
+  display:inline-block;
+  margin: 0 0 0 rem(70px);
+  text-align: center;
+}
+nav>ul>li>a{
+  text-align: center;
+  text-decoration: none;
+  color:white;
+  font-family:Circe;
+  font-weight:700;
+  font-size:rem(21px);
+
+  padding: 0 0 rem(1px) 0;
+  border-bottom: 1px solid #666b6f;
+}
+.subMenu1{
+
+}
+.subMenu2{
+
+  margin-left: rem(10px);
+}
+.navShadow{
+  box-shadow: 0 rem(12px) rem(18px) rgba(0, 0, 0, 0.11);
+}
+.navActive{
+  background:#c98c66;
+}

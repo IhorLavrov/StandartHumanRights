@@ -1,0 +1,24 @@
+@import "_variables";
+@import "_media1366";
+@import "_media1024";
+/*@media screen and (max-width: 1680px) {
+  html{
+    font-size:14px !important;
+  }
+}
+@media screen and (max-width: 1440px) {
+  html{
+    font-size:12px !important;
+  }
+}*/
+@media screen and(max-width: 1919px){
+  html{
+    font-size: 13.5px !important;
+  }
+}
+
+@media screen and(max-width: 1623px){
+  html{
+    font-size: 12.5px !important;
+  }
+}

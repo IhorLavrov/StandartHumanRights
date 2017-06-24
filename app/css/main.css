@@ -1,0 +1,790 @@
+@font-face {
+  font-family: Circe;
+  src: url("../fonts/Circe-Bold.woff");
+  font-weight: 700; }
+
+@font-face {
+  font-family: Circe;
+  src: url("../fonts/Circe-ExtraBold.woff");
+  font-weight: 800; }
+
+@font-face {
+  font-family: Circe;
+  src: url("../fonts/Circe-Light.woff");
+  font-weight: 200; }
+
+.firstScreen {
+  width: 100%;
+  max-width: 1920px;
+  background: url(../img/mainBG.png); }
+
+header {
+  margin: 0 3.125rem;
+  width: 94.7%;
+  max-width: 1820px; }
+
+.logoImg {
+  float: left;
+  margin-top: 1.25rem;
+  width: 19.375rem;
+  height: 7.5rem;
+  display: inline-block; }
+
+.headerLine {
+  display: inline-block;
+  float: right;
+  width: 93.75rem;
+  margin-top: 2.5rem; }
+
+nav {
+  float: right;
+  margin-top: 1.25rem;
+  height: 5.3125rem; }
+
+nav > ul {
+  margin: 1.25rem 0 0 0;
+  display: inline-block; }
+
+nav > ul > img {
+  display: none; }
+
+nav > ul > li {
+  display: inline-block;
+  margin: 0 0 0 4.375rem;
+  text-align: center; }
+
+nav > ul > li > a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-family: Circe;
+  font-weight: 700;
+  font-size: 1.3125rem;
+  padding: 0 0 0.0625rem 0;
+  border-bottom: 1px solid #666b6f; }
+
+.subMenu2 {
+  margin-left: 0.625rem; }
+
+.navShadow {
+  -webkit-box-shadow: 0 0.75rem 1.125rem rgba(0, 0, 0, 0.11);
+          box-shadow: 0 0.75rem 1.125rem rgba(0, 0, 0, 0.11); }
+
+.navActive {
+  background: #c98c66; }
+
+.headPict {
+  height: 25rem;
+  margin-left: 11.25rem;
+  margin-right: 11.875rem; }
+
+.headPictTextHolder {
+  margin-top: 6.25rem;
+  margin-left: 8.75rem;
+  text-align: right;
+  width: 15.625rem; }
+
+.headPictTextHolder > h1 {
+  font-size: 2.5rem;
+  font-family: Chunk;
+  color: #e7e8ea; }
+
+.headPictTextHolder > h2 {
+  color: #d7d7e3;
+  font-weight: 300;
+  font-family: Alexandria;
+  font-size: 3rem; }
+
+.headPictTextHolder > h2 > span {
+  font-weight: 800; }
+
+.headPictTextHolder > p {
+  font-family: Colaborate;
+  color: #e7e8ea;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  font-weight: 200; }
+
+.standartsHumanRight {
+  text-align: left;
+  margin: 3.125rem 0 6.25rem 3.125rem;
+  width: 60%;
+  height: 21.25rem; }
+
+.standartsHumanRight > h6 {
+  font-size: 1.25rem;
+  opacity: 0.3;
+  color: white; }
+
+.standartsHumanRight > h1 {
+  font-size: 4.9375rem;
+  color: white; }
+
+.standartsHumanRight > h4 {
+  font-size: 1.6875rem;
+  color: white;
+  width: 43.75rem; }
+
+.endOfRegister {
+  margin: 3.125rem 3.125rem 0 6.25rem;
+  vertical-align: top;
+  width: 28%; }
+
+.endOfRegister > h6 {
+  font-size: 1.25rem;
+  opacity: 0.3;
+  color: white; }
+
+.endOfRegister > h1 {
+  font-size: 5.125rem;
+  color: white; }
+
+.endOfRegister > p {
+  font-size: 1rem;
+  opacity: 0.4;
+  color: white; }
+
+.endOfRegister > button {
+  margin-top: 3.125rem;
+  width: 21.25rem;
+  height: 5.625rem;
+  padding: 1.875rem 3.75rem;
+  border: none;
+  color: white;
+  font-size: 1.4375rem;
+  background: #c98c66;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 1.75rem 4.6875rem 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 1.75rem 4.6875rem 0px rgba(0, 0, 0, 0.1); }
+
+.courseIsRecomendedBy > p {
+  display: block;
+  margin: 0 0 0 3.125rem;
+  font-size: 1.25rem;
+  color: white; }
+
+.courseIsRecomendedBy > div {
+  height: 16.875rem;
+  width: 100%;
+  position: relative; }
+
+.courseIsRecomendedBy > div:before {
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: white;
+  opacity: 0.05; }
+
+.courseIsRecomendedBy > div:hover:before {
+  opacity: 0.05; }
+
+.personWhoRecommended {
+  position: absolute;
+  width: 53.75rem;
+  height: 11.875rem;
+  margin: 3.4375rem 0 0 3.125rem; }
+
+.personWhoRecommendedPhoto {
+  width: 10rem;
+  height: 10rem;
+  -webkit-border-radius: 5.625rem;
+  border-radius: 5.625rem;
+  opacity: 0.9; }
+
+.personWhoRecommendedPhotoDemchenko {
+  background: url("../img/Demch.png");
+  -webkit-background-size: cover;
+          background-size: cover; }
+
+.personWhoRecommendedDescription {
+  width: 33.125rem;
+  vertical-align: top;
+  margin: 0 0 0 2.375rem;
+  color: white;
+  font-size: 1.3125rem; }
+
+.personWhoRecommendedDescription > p > span {
+  font-size: 1.6875rem; }
+
+.personWhoRecommended1 {
+  position: absolute;
+  width: 53.75rem;
+  height: 11.875rem;
+  margin: 3.4375rem 0 0 3.125rem;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 56.5625rem; }
+
+.personWhoRecommendedPhotoShabunin {
+  background: url("../img/Shabu.png");
+  -webkit-background-size: cover;
+          background-size: cover; }
+
+.arrows {
+  height: 11.875rem;
+  position: absolute;
+  left: 113.4375rem;
+  width: 4.375rem;
+  margin-top: 3.4375rem; }
+
+.arrowHolder {
+  height: 5.9375rem;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: none; }
+
+.arrowHolder > a > img {
+  display: block;
+  margin: 1.875rem auto; }
+
+.aboutCourse {
+  text-align: center;
+  margin: 6.25rem 3.125rem; }
+
+.aboutCourse > h1 {
+  font-size: 3.75rem; }
+
+.aboutCourseDivider1 {
+  width: 8.75rem;
+  height: 1px;
+  margin: 3.125rem auto;
+  display: block; }
+
+.aboutCourseMainText {
+  margin: 0 16.25rem 0 16.25rem;
+  font-size: 2.3125rem;
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 6.25rem; }
+
+.aboutCourseDividerRes {
+  display: none; }
+
+.aboutRow {
+  margin: 7.1875rem 16.25rem 0 16.25rem;
+  text-align: left;
+  padding-bottom: 5.3125rem; }
+
+.aboutRow:nth-child(4) {
+  border-bottom: 1px solid #ededed; }
+
+.aboutCourse1:nth-child(2) {
+  margin-left: 8.4375rem; }
+
+.aboutCourse1 {
+  width: 35.75rem;
+  text-align: left;
+  display: inline-block;
+  vertical-align: top; }
+
+.aboutCourse1 > h1 {
+  font-size: 2.1875rem; }
+
+.aboutCourse1 > p {
+  margin-top: 3.125rem;
+  font-size: 1.25rem; }
+
+.aboutCourse1 > ul {
+  list-style-image: url(../img/ulMarker.png);
+  font-size: 1.25rem;
+  margin-top: 3.125rem; }
+
+.aboutCourse1 > ul > li {
+  font-size: 1.25rem;
+  text-align: left;
+  padding-left: 2.1875rem; }
+
+.aboutCourseDivider3 {
+  margin: 3.125rem 0 3.125rem 12.5rem; }
+
+.durability {
+  text-align: center;
+  margin: 6.25rem 0 0 0; }
+
+.durability > h1 {
+  color: #c98c66;
+  font-size: 2.1875rem; }
+
+.durability > p {
+  font-size: 1.25rem;
+  margin-top: 2.1875rem; }
+
+.durability > button {
+  background: #005f86;
+  width: 31.25rem;
+  letter-spacing: 0.125rem;
+  font-size: 1.0625rem;
+  padding: 1.875rem 3.125rem;
+  margin-top: 2.5rem;
+  -webkit-box-shadow: 0 1.375rem 4.25rem rgba(33, 86, 35, 0.54);
+          box-shadow: 0 1.375rem 4.25rem rgba(33, 86, 35, 0.54); }
+
+.courseTeam {
+  background: #fbfcfd;
+  text-align: center;
+  padding: 8.125rem 3.125rem 3.75rem 3.125rem; }
+
+.courseTeamDivider1 {
+  margin: 0 auto; }
+
+.courseTeam > h1 {
+  font-size: 3.75rem; }
+
+.courseTeam > p {
+  font-size: 2.1875rem;
+  opacity: 0.2;
+  margin-bottom: 3.125rem; }
+
+.expertsRow {
+  margin: 3.25rem 0 5rem 0;
+  text-align: center; }
+
+.teamPhoto {
+  width: 15rem;
+  height: 15rem;
+  -webkit-border-radius: 150px;
+          border-radius: 150px;
+  border: 1px solid #ededed;
+  -webkit-box-shadow: 0 1.8125rem 2.875rem rgba(122, 135, 143, 0.66);
+          box-shadow: 0 1.8125rem 2.875rem rgba(122, 135, 143, 0.66); }
+
+.photoTeamPerson {
+  background-image: url(../img/experts.png);
+  -webkit-background-size: cover;
+          background-size: cover; }
+
+.expertHolder {
+  margin: 0 3.1875rem 0 3.1875rem; }
+
+.expertHolder1 {
+  margin: 0 3.1875rem 0 3.1875rem; }
+
+.expertHolder:last-child {
+  height: 22rem;
+  border: none; }
+
+.expertHolder:last-child > .photoTeamPerson {
+  background-image: url(../img/others.png);
+  -webkit-background-size: cover;
+          background-size: cover; }
+
+.expertHolder:last-child > .teamPhoto {
+  border: none; }
+
+.name {
+  font-size: 1.875rem;
+  margin-top: 1.5625rem;
+  text-align: center; }
+
+.posada {
+  font-size: 1.5rem;
+  opacity: 0.4;
+  margin-top: 0.625rem;
+  text-align: center; }
+
+.assistants {
+  margin-top: 5.625rem; }
+
+.assistantsHolder {
+  margin: 0 0 0 6.5625rem; }
+
+.courseTeamHeader {
+  font-size: 2.1875rem;
+  opacity: 0.2; }
+
+.courseIs {
+  margin: 8.125rem 3.125rem 0 3.125rem; }
+
+.courseIs > h1 {
+  font-size: 60px;
+  text-align: center; }
+
+.courseIsDivider1 {
+  width: 8.75rem;
+  height: 2px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 6.25rem;
+  margin-top: 6.25rem; }
+
+.courseIsDiv:nth-child(6) {
+  width: 53.125rem;
+  height: 20rem;
+  float: right; }
+
+.courseIsDiv:nth-child(5) {
+  width: 28.4375rem;
+  height: 20.625rem;
+  float: right;
+  background-image: url("../img/DBG2.png"); }
+
+.courseIsDiv:nth-child(4) {
+  width: 28.4375rem;
+  height: 20.625rem;
+  float: right;
+  background-image: url("../img/DBG3.png"); }
+
+.courseIsDiv:nth-child(3) {
+  width: 56.875rem;
+  height: 40.625rem;
+  float: left;
+  background-image: url("../img/DBG1.png"); }
+
+.courseIsDiv:nth-child(7) {
+  width: 56.875rem;
+  height: 20.3125rem;
+  float: left;
+  background-image: url("../img/DBG2.png"); }
+
+.courseIsDiv:nth-child(10) {
+  width: 28.4375rem;
+  height: 20.3125rem;
+  float: left; }
+
+.courseIsDiv:nth-child(9) {
+  width: 28.4375rem;
+  height: 20.3125rem;
+  float: left;
+  background-image: url("../img/DBG1.png"); }
+
+.courseIsDiv:nth-child(8) {
+  width: 56.875rem;
+  height: 40.625rem;
+  float: right;
+  background-image: url("../img/DBG8.png"); }
+
+.numbers {
+  color: #c98c66;
+  font-size: 3.375rem; }
+
+.descriptionMarg {
+  margin-left: 3.75rem;
+  margin-top: 3.75rem; }
+
+.description1 {
+  font-size: 3.375rem;
+  color: white; }
+
+.description2 {
+  font-size: 1.5rem;
+  color: black; }
+
+.description3 {
+  font-size: 1.5rem;
+  color: white; }
+
+.description4 {
+  color: black;
+  font-size: 2.375rem; }
+
+.organisator {
+  padding: 9.375rem 3.125rem 6.25rem 3.125rem;
+  background: #fbfcfd; }
+
+.organisator > h1 {
+  font-size: 3.75rem;
+  text-align: center; }
+
+.organisator > img {
+  display: block;
+  margin: 4.375rem auto; }
+
+.orgInfo {
+  margin: 0 auto;
+  width: 53.75rem;
+  margin-bottom: 10.625rem; }
+
+.orgInfoH1 {
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 6.25rem;
+  margin-left: 4.6875rem; }
+
+.partnersRow {
+  margin: 1.875rem 0 0 0;
+  width: 113.75rem;
+  padding-bottom: 2.1875rem;
+  border-bottom: 1px solid #ededed; }
+
+.partnersBlock {
+  margin-left: 3.75rem;
+  width: 52.5rem; }
+
+.partnersLogo {
+  width: 12.5rem;
+  height: 12.5rem;
+  -webkit-border-radius: 6.25rem;
+  border-radius: 6.25rem;
+  border: 1px solid #ededed;
+  -webkit-box-shadow: 0 1.8125rem 2.875rem rgba(122, 135, 143, 0.66);
+          box-shadow: 0 1.8125rem 2.875rem rgba(122, 135, 143, 0.66); }
+
+.parnter1 {
+  background: url("../img/patner1.png") no-repeat; }
+
+.parnter2 {
+  background: url("../img/partner2.png") no-repeat; }
+
+.parnter3 {
+  background: url("../img/partner3.png") no-repeat; }
+
+.parnter4 {
+  background: url("../img/partner4.png") no-repeat; }
+
+.partnersDescription {
+  width: 31.25rem;
+  vertical-align: top;
+  margin-left: 3.125rem;
+  margin-top: 1.5625rem; }
+
+.partnersDescription > h1 {
+  font-size: 2.1875rem; }
+
+.partnersDescription > p {
+  font-size: 1.25rem;
+  margin-top: 1.25rem; }
+
+.contacts {
+  padding-top: 1.875rem; }
+
+.horizontalDivider {
+  width: 9.375rem;
+  display: block;
+  margin: 3.125rem auto;
+  height: 1px; }
+
+.contactsHolder {
+  margin: 5rem auto;
+  width: 81.875rem;
+  text-align: justify; }
+
+.contactsHolder:after {
+  display: inline-block;
+  content: "";
+  width: 100%; }
+
+.contactsDiv {
+  text-align: center;
+  vertical-align: top; }
+
+.contactsDiv > h1 {
+  font-size: 2.1875rem; }
+
+.infoText {
+  text-align: center;
+  font-size: 1.5rem; }
+
+.apply {
+  width: 120rem;
+  height: 18.75rem;
+  background: url("../img/applyBG.png");
+  padding-top: 12.5rem; }
+
+.apply > button {
+  margin: 0 auto;
+  display: block;
+  font-size: 1.4375rem;
+  color: black;
+  background: white;
+  padding: 1.5625rem 3.125rem;
+  letter-spacing: 0.1875rem;
+  -webkit-box-shadow: 0 1.8125rem 5.25rem rgba(0, 0, 0, 0.75);
+          box-shadow: 0 1.8125rem 5.25rem rgba(0, 0, 0, 0.75); }
+
+.apply > p {
+  font-size: 1rem;
+  text-align: center;
+  margin: 3.125rem auto;
+  width: 25rem;
+  color: white;
+  opacity: 0.5; }
+
+footer {
+  display: inline-block;
+  padding: 2.0625rem 0;
+  margin: 0 3.125rem; }
+
+footer > img {
+  display: inline-block;
+  vertical-align: middle; }
+
+footer > p {
+  margin-left: 2.9375rem;
+  vertical-align: middle;
+  display: inline-block;
+  width: 28.125rem;
+  opacity: 0.4; }
+
+footer > a {
+  vertical-align: middle;
+  display: inline-block;
+  width: 12.5rem;
+  text-decoration: none;
+  margin-right: 20rem;
+  opacity: 0.4;
+  text-align: center;
+  border-bottom: 0.5px solid #6c7075; }
+
+.alignRight {
+  text-align: right; }
+
+@media screen and (max-width: 1367px) {
+  html {
+    font-size: 13.5px !important; }
+  img {
+    max-width: 100%;
+    height: auto; } }
+
+@media screen and (max-width: 1025px) {
+  html {
+    font-size: 10px !important; }
+  .subMenu1 {
+    float: right;
+    margin-left: 4.5rem; }
+  .subMenu1 > li {
+    display: none;
+    text-align: center;
+    margin-top: 4rem; }
+  .regularText {
+    font-size: 1.5rem; }
+  .subMenu1 > li > a {
+    text-align: center; }
+  .subMenu1 > img {
+    float: right; }
+  .subMenu1:hover > li {
+    display: block; }
+  .divider, .viS {
+    display: none !important; }
+  .tillStop {
+    display: block;
+    margin: 10rem auto;
+    width: 80%; }
+  .tillStop > button {
+    font-size: 1.9rem; }
+  .info {
+    margin: 5rem auto;
+    text-align: center; }
+  .textRec {
+    text-align: center; }
+  .recommend > aside {
+    width: 100%;
+    margin: 5rem auto; }
+  .recommend > aside > p {
+    width: 70%;
+    margin-top: 4rem; }
+  ul > img {
+    display: block; }
+  .evDtext {
+    display: inline-block;
+    width: 80%;
+    vertical-align: top; }
+  .t2 {
+    margin-top: 2rem;
+    width: 90rem;
+    font-size: 2.4rem; }
+  .aboutCourse {
+    text-align: left; }
+  .aboutCourse > p {
+    text-align: center; }
+  .aboutCourse1 {
+    margin-top: 5rem;
+    width: 155rem; }
+  .aboutCourse1 > p {
+    font-size: 2rem; }
+  .aboutCourseDivider2 {
+    display: block;
+    margin: 10rem auto 2rem;
+    width: 80%; }
+  .aboutCourseDividerRes {
+    display: block;
+    margin: 4rem auto;
+    width: 80%; }
+  /*.aboutCourseDividerRes{
+    display: block;
+  }*/
+  /*.expertsFirstRow:nth-child(3){
+    display:none;
+  }
+  .expertsFirstRow:nth-child(4){
+    display:none;
+  }*/ }
+
+/*@media screen and (max-width: 1680px) {
+  html{
+    font-size:14px !important;
+  }
+}
+@media screen and (max-width: 1440px) {
+  html{
+    font-size:12px !important;
+  }
+}*/
+@media screen and (max-width: 1919px) {
+  html {
+    font-size: 13.5px !important; } }
+
+@media screen and (max-width: 1623px) {
+  html {
+    font-size: 12.5px !important; } }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+html {
+  font-size: 16px; }
+
+.standartMargin {
+  margin: 5rem 5rem; }
+
+.fontCirceBold {
+  font-family: Circe;
+  font-weight: 700; }
+
+.fontCirceExtraBold {
+  font-family: Circe;
+  font-weight: 800; }
+
+.fontCirceLight {
+  font-family: Circe;
+  font-weight: 200; }
+
+.plainColor {
+  color: #97999c; }
+
+.buttonStyle {
+  border: none;
+  color: white;
+  font-size: 2.3rem; }
+
+.clear {
+  clear: both; }
+
+.circle {
+  width: 18rem;
+  height: 18rem;
+  -webkit-border-radius: 9rem;
+  border-radius: 9rem; }
+
+.photoTeamPerson {
+  background-image: url(../img/experts.png);
+  -webkit-background-size: cover;
+          background-size: cover; }
+
+.inlineBlock {
+  display: inline-block; }
+
+section > h1 {
+  font-size: 6rem;
+  text-align: center; }
+
+.smallText {
+  font-size: 1.5rem; }
+
+.border-bottom {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+
+.borderRight {
+  border-right: 1px solid rgba(255, 255, 255, 0.1); }

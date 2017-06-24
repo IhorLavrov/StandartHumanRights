@@ -1,0 +1,55 @@
+@import "_variables";
+.standartsHumanRight{
+  text-align: left;
+  margin: rem(50px) 0 rem(100px) rem(50px);
+  width: 60%;
+  height: rem(340px);
+}
+.standartsHumanRight>h6{
+  font-size:rem(20px);
+  opacity:0.3;
+  color:white;
+}
+.standartsHumanRight>h1{
+  font-size:rem(79px);
+  color:white;
+}
+.standartsHumanRight>h4{
+  font-size: rem(27px);
+  color: white;
+  width: rem(700px);
+}
+
+.endOfRegister{
+  margin:rem(50px) rem(50px) 0  rem(100px);
+  vertical-align: top;
+  width: 28%;
+}
+.endOfRegister>h6{
+  font-size: rem(20px);
+  opacity:0.3;
+  color:white;
+}
+.endOfRegister>h1{
+  font-size: rem(82px);
+  color:white;
+}
+.endOfRegister>p{
+  font-size:rem(16px);
+  opacity: 0.4;
+  color:white;
+}
+.endOfRegister>button{
+  margin-top: rem(50px);
+  width: rem(340px);
+  height: rem(90px);
+  padding: rem(30px) rem(60px);
+  border:none;
+  color:white;
+  font-size: rem(23px);
+  background: #c98c66;
+  letter-spacing:1px;
+
+  box-shadow: 0px rem(28px) rem(75px) 0px rgba(0, 0, 0, 0.1);
+
+}

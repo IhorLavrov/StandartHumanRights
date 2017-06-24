@@ -1,0 +1,84 @@
+@import "_fonts";
+@import "_header";
+@import "_variables";
+@import "_headPict";
+@import "_info";
+@import "_recomended";
+@import "_about";
+@import "_courseTeam";
+@import "_courseIs";
+@import "_org";
+@import "_contats";
+@import "_footer";
+@import "_media";
+*{
+  padding:0;
+  margin:0;
+}
+html{
+  font-size: 16px;
+}
+body{
+
+}
+.standartMargin{
+  margin:rem(50px) rem(50px);
+}
+.fontCirceBold{
+  font-family: Circe;
+  font-weight:700;
+}
+.fontCirceExtraBold{
+  font-family:Circe;
+  font-weight:800;
+}
+.fontCirceLight{
+  font-family: Circe;
+  font-weight: 200;
+}
+
+.plainColor{
+  color: #97999c;
+}
+
+.buttonStyle{
+  border: none;
+  color:white;
+  font-size:rem(23px);
+
+
+}
+.clear{
+  clear:both;
+}
+.circle {
+  width: rem(180px);
+  height: rem(180px);
+
+  -moz-border-radius: rem(90px);
+  -webkit-border-radius: rem(90px);
+  border-radius: rem(90px);
+}
+
+
+.photoTeamPerson{
+  background-image: url(../img/experts.png);
+  background-size: cover;
+}
+
+.inlineBlock{
+  display: inline-block;
+}
+
+section>h1{font-size: rem(60px);
+  text-align: center;}
+.smallText{
+  font-size:rem(15px);
+}
+
+.border-bottom{
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.borderRight{
+  border-right:1px solid rgba(255,255,255, 0.1);
+}

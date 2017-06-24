@@ -1,0 +1,71 @@
+@import "_variables";
+.courseTeam{
+  background: #fbfcfd;
+  text-align: center;
+  padding: rem(130px) rem(50px) rem(60px) rem(50px);
+}
+.courseTeamDivider1{
+  margin:0 auto;
+}
+.courseTeam>h1{
+  font-size:rem(60px);
+
+}
+.courseTeam>p{
+  font-size: rem(35px);
+  opacity: 0.2;
+  margin-bottom:rem(50px);
+}
+.expertsRow{
+  margin: rem(52px) 0 rem(80px) 0;
+  text-align: center;
+}
+.teamPhoto{
+  width:rem(240px);
+  height: rem(240px);
+  border-radius: 150px;
+  border: 1px solid #ededed;
+  box-shadow: 0 rem(29px) rem(46px) rgba(122,135,143,0.66);
+}
+.photoTeamPerson{
+  background-image: url(../img/experts.png);
+  background-size: cover;
+}
+.expertHolder{
+   margin: 0 rem(51px) 0 rem(51px);
+ }
+.expertHolder1{
+  margin: 0 rem(51px) 0 rem(51px); ;
+}
+.expertHolder:last-child{
+  height:rem(352px);
+  border:none;
+}
+.expertHolder:last-child>.photoTeamPerson{
+  background-image: url(../img/others.png);;
+  background-size: cover;
+}
+.expertHolder:last-child>.teamPhoto{
+  border:none;
+}
+.name{
+  font-size: rem(30px);
+  margin-top: rem(25px);
+  text-align: center;
+}
+.posada{
+  font-size:rem(24px);
+  opacity: 0.4;
+  margin-top:rem(10px);
+  text-align: center;
+}
+.assistants{
+  margin-top:rem(90px);
+}
+.assistantsHolder{
+  margin: 0 0 0 rem(105px);
+}
+.courseTeamHeader{
+  font-size: rem(35px);
+  opacity: 0.2;
+}

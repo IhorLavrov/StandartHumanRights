@@ -1,0 +1,103 @@
+@function rem($size) {
+  $remSize: $size / 10px;
+  @return $remSize * 1rem;
+}
+@media screen and (max-width: 1025px){
+  html{
+    font-size: 10px !important;
+  }
+  .subMenu1{
+    float:right;
+    margin-left: rem(45px);
+  }
+  .subMenu1>li{
+    display:none;
+   text-align: center;
+    margin-top:rem(40px);
+  }
+  .regularText{
+    font-size:rem(15px);
+  }
+  .subMenu1>li>a{
+    text-align: center;
+  }
+  .subMenu1>img{
+    float:right;
+  }
+  .subMenu1:hover>li{
+    display: block;
+  }
+  .divider, .viS{
+    display:none !important;
+  }
+  .tillStop{
+    display: block;
+    margin: rem(100px) auto;
+    width:80%;
+  }
+  .tillStop>button{
+    font-size:rem(19px);
+  }
+  .info{
+    margin: rem(50px) auto;
+    text-align: center;
+  }
+
+  .textRec{
+    text-align: center;
+  }
+
+  .recommend>aside{
+    width:100%;
+    margin: rem(50px) auto;
+  }
+  .recommend>aside>p{
+    width: 70%;
+    margin-top:rem(40px);
+  }
+  ul>img{
+    display:block;
+  }
+  .evDtext{
+     display: inline-block;
+     width: 80%;
+     vertical-align: top;
+   }
+  .t2{
+    margin-top:rem(20px);
+    width: rem(900px);
+    font-size:rem(24px);
+  }
+  .aboutCourse{
+    text-align: left;
+  }
+  .aboutCourse>p{
+    text-align: center;
+  }
+  .aboutCourse1{
+    margin-top:rem(50px);
+    width: rem(1550px);
+  }
+  .aboutCourse1>p{
+    font-size:2rem;
+  }
+  .aboutCourseDivider2{
+    display: block;
+    margin: rem(100px)auto rem(20px);
+    width:80%;
+  }
+  .aboutCourseDividerRes{
+    display: block;
+    margin: rem(40px) auto;
+    width:80%;
+  }
+  /*.aboutCourseDividerRes{
+    display: block;
+  }*/
+  /*.expertsFirstRow:nth-child(3){
+    display:none;
+  }
+  .expertsFirstRow:nth-child(4){
+    display:none;
+  }*/
+}
