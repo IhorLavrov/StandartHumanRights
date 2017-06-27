@@ -7,3 +7,7 @@
   $remSize: $size/1pt*1.3333333px;
   @return ($remSize/16px*1rem);
 }
+@function fs($size) {
+  $remSize: $size / 21;
+  @return $remSize * 1em;
+}

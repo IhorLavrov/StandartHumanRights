@@ -16,42 +16,43 @@
 .firstScreen {
   width: 100%;
   max-width: 1920px;
+  max-height: 940px;
   background: url(../img/mainBG.png); }
 
 header {
-  margin: 0 3.125rem;
+  margin: 0 2.6%;
   width: 94.7%;
   max-width: 1820px; }
 
 .logoImg {
   float: left;
-  margin-top: 1.25rem;
-  width: 19.375rem;
-  height: 7.5rem;
+  margin-top: 1.104%;
+  width: 16%;
+  height: auto;
   display: inline-block; }
-
-.headerLine {
-  display: inline-block;
-  float: right;
-  width: 93.75rem;
-  margin-top: 2.5rem; }
 
 nav {
   float: right;
-  margin-top: 1.25rem;
-  height: 5.3125rem; }
+  margin-top: 1.1001%;
+  height: 63.4%;
+  width: 81%;
+  padding-bottom: 2.14%; }
 
 nav > ul {
-  margin: 1.25rem 0 0 0;
-  display: inline-block; }
+  margin: 1.3589% 0 0 0;
+  display: inline-block;
+  float: right;
+  width: 10%; }
 
-nav > ul > img {
+nav > img {
   display: none; }
 
 nav > ul > li {
   display: inline-block;
-  margin: 0 0 0 4.375rem;
   text-align: center; }
+
+nav > ul > li:nth-child(2) {
+  width: 23%; }
 
 nav > ul > li > a {
   text-align: center;
@@ -59,16 +60,25 @@ nav > ul > li > a {
   color: white;
   font-family: Circe;
   font-weight: 700;
-  font-size: 1.3125rem;
-  padding: 0 0 0.0625rem 0;
+  font-size: 1em;
+  padding: 0 0 1% 0;
   border-bottom: 1px solid #666b6f; }
 
-.subMenu2 {
-  margin-left: 0.625rem; }
+.subMenu1 {
+  width: 81.33%; }
 
-.navShadow {
-  -webkit-box-shadow: 0 0.75rem 1.125rem rgba(0, 0, 0, 0.11);
-          box-shadow: 0 0.75rem 1.125rem rgba(0, 0, 0, 0.11); }
+.subMenu1 > li {
+  margin: 0 0 0 3.06%;
+  width: 12%;
+  float: right; }
+
+.subMenu2 {
+  width: 14.33%;
+  margin-left: 2%; }
+
+.subMenu2 > li {
+  margin: 0 0 0 0;
+  width: 100%; }
 
 .navActive {
   background: #c98c66; }
@@ -107,51 +117,51 @@ nav > ul > li > a {
 
 .standartsHumanRight {
   text-align: left;
-  margin: 3.125rem 0 6.25rem 3.125rem;
+  margin: 2.6042% 0 2.2083% 2.6042%;
   width: 60%;
-  height: 21.25rem; }
+  border-right: 1px solid rgba(237, 237, 237, 0.2); }
 
 .standartsHumanRight > h6 {
-  font-size: 1.25rem;
+  font-size: 0.95238em;
   opacity: 0.3;
   color: white; }
 
 .standartsHumanRight > h1 {
-  font-size: 4.9375rem;
+  font-size: 3.7619em;
   color: white; }
 
 .standartsHumanRight > h4 {
-  font-size: 1.6875rem;
+  font-size: 1.28571em;
   color: white;
-  width: 43.75rem; }
+  width: 60%; }
 
 .endOfRegister {
-  margin: 3.125rem 3.125rem 0 6.25rem;
+  margin: 2.6% 2.6% 0  5.2%;
   vertical-align: top;
   width: 28%; }
 
 .endOfRegister > h6 {
-  font-size: 1.25rem;
+  font-size: 0.95238em;
   opacity: 0.3;
   color: white; }
 
 .endOfRegister > h1 {
-  font-size: 5.125rem;
+  font-size: 3.90476em;
   color: white; }
 
 .endOfRegister > p {
-  font-size: 1rem;
+  font-size: 0.7619em;
   opacity: 0.4;
   color: white; }
 
 .endOfRegister > button {
-  margin-top: 3.125rem;
-  width: 21.25rem;
-  height: 5.625rem;
-  padding: 1.875rem 3.75rem;
+  margin-top: 9.3111%;
+  width: 63%;
+  height: 22%;
+  padding: 5.5865% 11.1731843575419%;
   border: none;
   color: white;
-  font-size: 1.4375rem;
+  font-size: 1.09524em;
   background: #c98c66;
   letter-spacing: 1px;
   -webkit-box-shadow: 0px 1.75rem 4.6875rem 0px rgba(0, 0, 0, 0.1);
@@ -159,8 +169,8 @@ nav > ul > li > a {
 
 .courseIsRecomendedBy > p {
   display: block;
-  margin: 0 0 0 3.125rem;
-  font-size: 1.25rem;
+  margin: 0 0 0 2.60%;
+  font-size: 0.95238em;
   color: white; }
 
 .courseIsRecomendedBy > div {
@@ -183,15 +193,18 @@ nav > ul > li > a {
 
 .personWhoRecommended {
   position: absolute;
-  width: 53.75rem;
-  height: 11.875rem;
-  margin: 3.4375rem 0 0 3.125rem; }
+  width: 45%;
+  margin: 2.65% 0 2.8% 2.6%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
 
 .personWhoRecommendedPhoto {
-  width: 10rem;
-  height: 10rem;
-  -webkit-border-radius: 5.625rem;
-  border-radius: 5.625rem;
+  width: 170px;
+  height: 170px;
+  -webkit-border-radius: 120px;
+          border-radius: 120px;
   opacity: 0.9; }
 
 .personWhoRecommendedPhotoDemchenko {
@@ -200,24 +213,23 @@ nav > ul > li > a {
           background-size: cover; }
 
 .personWhoRecommendedDescription {
-  width: 33.125rem;
+  width: 66%;
   vertical-align: top;
-  margin: 0 0 0 2.375rem;
+  margin: 0 0 0 4.30%;
   color: white;
-  font-size: 1.3125rem; }
+  font-size: 1em; }
 
 .personWhoRecommendedDescription > p > span {
-  font-size: 1.6875rem; }
+  font-size: 1.28571em; }
 
 .personWhoRecommended1 {
   position: absolute;
-  width: 53.75rem;
-  height: 11.875rem;
-  margin: 3.4375rem 0 0 3.125rem;
+  width: 45%;
+  margin: 2.65% 0 2.8% 2.6%;
   top: 0;
   right: 0;
   bottom: 0;
-  left: 56.5625rem; }
+  left: 47%; }
 
 .personWhoRecommendedPhotoShabunin {
   background: url("../img/Shabu.png");
@@ -225,11 +237,10 @@ nav > ul > li > a {
           background-size: cover; }
 
 .arrows {
-  height: 11.875rem;
   position: absolute;
-  left: 113.4375rem;
-  width: 4.375rem;
-  margin-top: 3.4375rem; }
+  left: 94.6%;
+  width: 3.6458%;
+  margin-top: 2.3375rem; }
 
 .arrowHolder {
   height: 5.9375rem;
@@ -243,108 +254,101 @@ nav > ul > li > a {
 
 .aboutCourse {
   text-align: center;
-  margin: 6.25rem 3.125rem; }
-
-.aboutCourse > h1 {
-  font-size: 3.75rem; }
+  margin: 5.2083% 2.6%; }
 
 .aboutCourseDivider1 {
-  width: 8.75rem;
+  width: 7.2916%;
   height: 1px;
-  margin: 3.125rem auto;
+  margin: 2.6041% auto;
   display: block; }
 
 .aboutCourseMainText {
-  margin: 0 16.25rem 0 16.25rem;
-  font-size: 2.3125rem;
+  margin: 0 auto;
+  width: 66%;
+  font-size: 1.7619em;
   border-bottom: 1px solid #ededed;
-  padding-bottom: 6.25rem; }
+  padding-bottom: 4.9%; }
 
 .aboutCourseDividerRes {
   display: none; }
 
 .aboutRow {
-  margin: 7.1875rem 16.25rem 0 16.25rem;
+  margin: 5.208% auto 0 auto;
+  width: 66%;
   text-align: left;
-  padding-bottom: 5.3125rem; }
+  padding-bottom: 4.9%; }
 
 .aboutRow:nth-child(4) {
   border-bottom: 1px solid #ededed; }
 
 .aboutCourse1:nth-child(2) {
-  margin-left: 8.4375rem; }
+  margin-left: 5.3375em; }
 
 .aboutCourse1 {
-  width: 35.75rem;
+  width: 44.25%;
   text-align: left;
   display: inline-block;
   vertical-align: top; }
 
 .aboutCourse1 > h1 {
-  font-size: 2.1875rem; }
+  font-size: 1.66667em; }
 
 .aboutCourse1 > p {
-  margin-top: 3.125rem;
-  font-size: 1.25rem; }
+  margin-top: 3%;
+  font-size: 0.95238em; }
 
 .aboutCourse1 > ul {
   list-style-image: url(../img/ulMarker.png);
-  font-size: 1.25rem;
-  margin-top: 3.125rem; }
+  font-size: 0.95238em;
+  margin-top: 3%; }
 
 .aboutCourse1 > ul > li {
-  font-size: 1.25rem;
+  font-size: 0.95238em;
   text-align: left;
-  padding-left: 2.1875rem; }
-
-.aboutCourseDivider3 {
-  margin: 3.125rem 0 3.125rem 12.5rem; }
+  padding-left: 7.35%; }
 
 .durability {
   text-align: center;
-  margin: 6.25rem 0 0 0; }
+  margin: 0 auto; }
 
 .durability > h1 {
   color: #c98c66;
-  font-size: 2.1875rem; }
+  font-size: 1.66667em; }
 
 .durability > p {
-  font-size: 1.25rem;
-  margin-top: 2.1875rem; }
+  font-size: 0.95238em;
+  margin-top: 3.182%; }
 
 .durability > button {
   background: #005f86;
-  width: 31.25rem;
+  width: 30%;
   letter-spacing: 0.125rem;
-  font-size: 1.0625rem;
-  padding: 1.875rem 3.125rem;
-  margin-top: 2.5rem;
+  font-size: 0.80952em;
+  padding: 2.54% 4%;
+  margin-top: 3.2%;
   -webkit-box-shadow: 0 1.375rem 4.25rem rgba(33, 86, 35, 0.54);
           box-shadow: 0 1.375rem 4.25rem rgba(33, 86, 35, 0.54); }
 
 .courseTeam {
   background: #fbfcfd;
   text-align: center;
-  padding: 8.125rem 3.125rem 3.75rem 3.125rem; }
+  padding: 6.6666% 2.60% 2.90% 2.60%; }
 
 .courseTeamDivider1 {
   margin: 0 auto; }
 
-.courseTeam > h1 {
-  font-size: 3.75rem; }
-
 .courseTeam > p {
-  font-size: 2.1875rem;
+  font-size: 1.66667em;
   opacity: 0.2;
-  margin-bottom: 3.125rem; }
+  margin-bottom: 2.604%; }
 
 .expertsRow {
-  margin: 3.25rem 0 5rem 0;
+  margin: 2.6% 0 3.2% 0;
   text-align: center; }
 
 .teamPhoto {
-  width: 15rem;
-  height: 15rem;
+  width: 250px;
+  height: 250px;
   -webkit-border-radius: 150px;
           border-radius: 150px;
   border: 1px solid #ededed;
@@ -357,164 +361,166 @@ nav > ul > li > a {
           background-size: cover; }
 
 .expertHolder {
-  margin: 0 3.1875rem 0 3.1875rem; }
+  width: 13%;
+  margin: 0 2.6% 0 2.6%;
+  display: inline-block; }
 
 .expertHolder1 {
-  margin: 0 3.1875rem 0 3.1875rem; }
-
-.expertHolder:last-child {
-  height: 22rem;
-  border: none; }
-
-.expertHolder:last-child > .photoTeamPerson {
-  background-image: url(../img/others.png);
-  -webkit-background-size: cover;
-          background-size: cover; }
-
-.expertHolder:last-child > .teamPhoto {
-  border: none; }
+  margin: 0 2.6% 0 2.6%; }
 
 .name {
-  font-size: 1.875rem;
-  margin-top: 1.5625rem;
+  font-size: 1.42857em;
+  margin-top: 10%;
   text-align: center; }
 
 .posada {
-  font-size: 1.5rem;
+  font-size: 1.14286em;
   opacity: 0.4;
-  margin-top: 0.625rem;
+  margin-top: 2%;
   text-align: center; }
 
 .assistants {
-  margin-top: 5.625rem; }
+  margin-top: 4.5%; }
 
 .assistantsHolder {
-  margin: 0 0 0 6.5625rem; }
+  margin: 0 0 0 4.5%; }
 
 .courseTeamHeader {
-  font-size: 2.1875rem;
+  font-size: 1.66667em;
   opacity: 0.2; }
 
 .courseIs {
-  margin: 8.125rem 3.125rem 0 3.125rem; }
+  margin: 7.29% 2.6% 0 2.6%; }
 
 .courseIs > h1 {
-  font-size: 60px;
   text-align: center; }
 
 .courseIsDivider1 {
-  width: 8.75rem;
+  width: 14.29%;
   height: 2px;
   margin: 0 auto;
   display: block;
-  margin-bottom: 6.25rem;
-  margin-top: 6.25rem; }
+  margin-bottom: 4%;
+  margin-top: 4%; }
 
 .courseIsDiv:nth-child(6) {
-  width: 53.125rem;
-  height: 20rem;
+  width: 50%;
+  height: 15.625rem;
   float: right; }
 
 .courseIsDiv:nth-child(5) {
-  width: 28.4375rem;
-  height: 20.625rem;
+  width: 25%;
+  height: 15.625rem;
   float: right;
-  background-image: url("../img/DBG2.png"); }
+  background: url("../img/DBG2.png") no-repeat; }
 
 .courseIsDiv:nth-child(4) {
-  width: 28.4375rem;
-  height: 20.625rem;
+  width: 25%;
+  height: 15.625rem;
   float: right;
-  background-image: url("../img/DBG3.png"); }
+  background: url("../img/DBG3.png") no-repeat; }
 
 .courseIsDiv:nth-child(3) {
-  width: 56.875rem;
-  height: 40.625rem;
+  width: 50%;
+  height: 31.25rem;
   float: left;
-  background-image: url("../img/DBG1.png"); }
+  background: url("../img/DBG1.png") no-repeat; }
 
 .courseIsDiv:nth-child(7) {
-  width: 56.875rem;
-  height: 20.3125rem;
+  width: 50%;
+  height: 15.625rem;
   float: left;
-  background-image: url("../img/DBG2.png"); }
+  background: url("../img/DBG5.png") no-repeat; }
 
 .courseIsDiv:nth-child(10) {
-  width: 28.4375rem;
-  height: 20.3125rem;
+  width: 25%;
+  height: 15.625rem;
   float: left; }
 
 .courseIsDiv:nth-child(9) {
-  width: 28.4375rem;
-  height: 20.3125rem;
+  width: 25%;
+  height: 15.625rem;
   float: left;
-  background-image: url("../img/DBG1.png"); }
+  background: url("../img/DBG1.png") no-repeat; }
 
 .courseIsDiv:nth-child(8) {
-  width: 56.875rem;
-  height: 40.625rem;
+  width: 50%;
+  height: 31.25rem;
   float: right;
-  background-image: url("../img/DBG8.png"); }
+  background: url("../img/DBG8.png") no-repeat; }
 
 .numbers {
   color: #c98c66;
-  font-size: 3.375rem; }
+  font-size: 2.57143em; }
 
 .descriptionMarg {
-  margin-left: 3.75rem;
-  margin-top: 3.75rem; }
+  margin-left: 2%;
+  margin-top: 2%; }
 
 .description1 {
-  font-size: 3.375rem;
+  font-size: 2.57143em;
   color: white; }
 
 .description2 {
-  font-size: 1.5rem;
+  font-size: 1.14286em;
   color: black; }
 
 .description3 {
-  font-size: 1.5rem;
+  font-size: 1.14286em;
   color: white; }
 
 .description4 {
   color: black;
-  font-size: 2.375rem; }
+  font-size: 1.80952em; }
 
 .organisator {
-  padding: 9.375rem 3.125rem 6.25rem 3.125rem;
+  padding: 7.8% 2.6% 5.2% 2.6%;
   background: #fbfcfd; }
 
 .organisator > h1 {
-  font-size: 3.75rem;
   text-align: center; }
 
 .organisator > img {
   display: block;
-  margin: 4.375rem auto; }
+  margin: 3.84% auto; }
 
 .orgInfo {
-  margin: 0 auto;
-  width: 53.75rem;
-  margin-bottom: 10.625rem; }
+  margin: 5.4054% auto 9.3406% auto;
+  width: 41.7582%; }
+
+.orgLogo {
+  width: 200px;
+  height: 200px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  -webkit-box-shadow: 0 1.8125rem 2.875rem rgba(122, 135, 143, 0.66);
+          box-shadow: 0 1.8125rem 2.875rem rgba(122, 135, 143, 0.66); }
+
+.orgLogoBG {
+  background: url("../img/orgLogo.png") no-repeat; }
+
+.orgText {
+  margin-left: 6.6665%;
+  width: 65.7894%; }
 
 .orgInfoH1 {
   border-bottom: 1px solid #ededed;
-  padding-bottom: 6.25rem;
-  margin-left: 4.6875rem; }
+  padding-bottom: 5.4945%;
+  margin-left: 4.1208%; }
 
 .partnersRow {
-  margin: 1.875rem 0 0 0;
-  width: 113.75rem;
-  padding-bottom: 2.1875rem;
+  margin: 1.6483% auto;
+  width: 97.2527%;
+  padding-bottom: 1.9230%;
   border-bottom: 1px solid #ededed; }
 
 .partnersBlock {
-  margin-left: 3.75rem;
-  width: 52.5rem; }
+  margin-left: 3.29%;
+  width: 46%; }
 
 .partnersLogo {
-  width: 12.5rem;
-  height: 12.5rem;
+  width: 200px;
+  height: 200px;
   -webkit-border-radius: 6.25rem;
   border-radius: 6.25rem;
   border: 1px solid #ededed;
@@ -534,182 +540,636 @@ nav > ul > li > a {
   background: url("../img/partner4.png") no-repeat; }
 
 .partnersDescription {
-  width: 31.25rem;
+  width: 66.49%;
   vertical-align: top;
-  margin-left: 3.125rem;
-  margin-top: 1.5625rem; }
+  margin-left: 5.649%;
+  margin-top: 2.82%; }
 
 .partnersDescription > h1 {
-  font-size: 2.1875rem; }
+  font-size: 1.66667em; }
 
 .partnersDescription > p {
-  font-size: 1.25rem;
-  margin-top: 1.25rem; }
+  font-size: 0.95238em;
+  margin-top: 4%; }
 
 .contacts {
-  padding-top: 1.875rem; }
+  padding-top: 5.23%; }
 
 .horizontalDivider {
-  width: 9.375rem;
+  width: 7.8125%;
   display: block;
-  margin: 3.125rem auto;
-  height: 1px; }
+  margin: 2.604% auto;
+  height: 2px; }
 
 .contactsHolder {
-  margin: 5rem auto;
-  width: 81.875rem;
-  text-align: justify; }
-
-.contactsHolder:after {
-  display: inline-block;
-  content: "";
-  width: 100%; }
+  margin: 0 auto 6.04% auto;
+  width: 77.08333%; }
 
 .contactsDiv {
+  width: 26%;
   text-align: center;
-  vertical-align: top; }
+  vertical-align: top;
+  border-right: 1px solid #e7e8ea;
+  padding-right: 6.1351%;
+  height: 191px; }
+
+.contactsDiv:last-child {
+  border: none; }
 
 .contactsDiv > h1 {
-  font-size: 2.1875rem; }
+  font-size: 1.66667em; }
 
 .infoText {
   text-align: center;
-  font-size: 1.5rem; }
+  font-size: 1.14286em; }
 
 .apply {
-  width: 120rem;
-  height: 18.75rem;
+  width: 100%;
+  height: 308px;
   background: url("../img/applyBG.png");
-  padding-top: 12.5rem; }
+  padding-top: 200px; }
 
 .apply > button {
   margin: 0 auto;
   display: block;
-  font-size: 1.4375rem;
+  font-size: 1.09524em;
   color: black;
   background: white;
-  padding: 1.5625rem 3.125rem;
-  letter-spacing: 0.1875rem;
-  -webkit-box-shadow: 0 1.8125rem 5.25rem rgba(0, 0, 0, 0.75);
-          box-shadow: 0 1.8125rem 5.25rem rgba(0, 0, 0, 0.75); }
+  padding: 1.302% 2.604%;
+  letter-spacing: 3px;
+  -webkit-box-shadow: 0 1.8125rem 1.5rem rgba(0, 0, 0, 0.75);
+          box-shadow: 0 1.8125rem 1.5rem rgba(0, 0, 0, 0.75); }
 
 .apply > p {
-  font-size: 1rem;
+  font-size: 0.7619em;
   text-align: center;
-  margin: 3.125rem auto;
-  width: 25rem;
+  margin: 2.604% auto;
+  width: 20.83%;
   color: white;
   opacity: 0.5; }
 
 footer {
-  display: inline-block;
-  padding: 2.0625rem 0;
-  margin: 0 3.125rem; }
+  display: block;
+  width: 94.7916%;
+  margin: 0 auto; }
 
 footer > img {
   display: inline-block;
-  vertical-align: middle; }
+  vertical-align: middle;
+  width: 9.34%;
+  max-width: 170px; }
 
 footer > p {
-  margin-left: 2.9375rem;
+  margin-left: 2.582%;
   vertical-align: middle;
   display: inline-block;
-  width: 28.125rem;
-  opacity: 0.4; }
+  width: 23.6263%;
+  opacity: 0.4;
+  font-size: 0.85714em; }
 
 footer > a {
   vertical-align: middle;
   display: inline-block;
-  width: 12.5rem;
+  width: 14.0879%;
   text-decoration: none;
-  margin-right: 20rem;
   opacity: 0.4;
   text-align: center;
+  font-size: 0.85714em;
+  margin-left: 2.968%;
   border-bottom: 0.5px solid #6c7075; }
 
 .alignRight {
-  text-align: right; }
+  text-align: right;
+  margin-left: 22.71%;
+  vertical-align: middle;
+  display: inline-block; }
 
 @media screen and (max-width: 1367px) {
   html {
-    font-size: 13.5px !important; }
+    font-size: 15.1519px !important; }
   img {
     max-width: 100%;
-    height: auto; } }
+    height: auto; }
+  .headers {
+    font-size: 3.7619em; }
+  .aboutCourseMainText {
+    width: 95.54%; }
+  .aboutRow {
+    margin-left: 2.526%;
+    width: 95.54%; }
+  .aboutCourse1 {
+    width: 45.91%; }
+  .aboutCourse1 > h1 {
+    font-size: 2.30994em; }
+  .aboutCourse1 > p {
+    width: 96.5161%;
+    font-size: 1.31997em; }
+  .aboutCourse1 > ul {
+    font-size: 1.31997em; }
+  .expertsRow:nth-child(5), .assistants, .coordinatorsHolder {
+    display: none; }
+  .teamPhoto {
+    width: 200px;
+    height: 200px;
+    -webkit-border-radius: 150px;
+            border-radius: 150px;
+    border: 1px solid #ededed;
+    -webkit-box-shadow: 0 1.8125rem 2.875rem rgba(122, 135, 143, 0.66);
+            box-shadow: 0 1.8125rem 2.875rem rgba(122, 135, 143, 0.66); }
+  .courseIsDiv:nth-child(6) {
+    height: 15.625rem; }
+  .courseIsDiv:nth-child(3) {
+    width: 50%;
+    height: 480px;
+    float: left;
+    background: url("../img/DBG1.png") no-repeat; }
+  .courseIsDiv:nth-child(4) {
+    width: 25%;
+    height: 240px;
+    float: right;
+    background: url("../img/DBG3.png") no-repeat; }
+  .courseIsDiv:nth-child(5) {
+    width: 25%;
+    height: 240px;
+    float: right;
+    background: url("../img/DBG2.png") no-repeat; }
+  .courseIsDiv:nth-child(6) {
+    width: 50%;
+    height: 240px;
+    float: right;
+    background: white; }
+  .courseIsDiv:nth-child(7) {
+    width: 50%;
+    height: 240px;
+    float: left;
+    background: url("../img/DBG5.png") no-repeat; }
+  .courseIsDiv:nth-child(8) {
+    width: 50%;
+    height: 31.25rem;
+    float: right;
+    background: url("../img/DBG8.png") no-repeat; }
+  .courseIsDiv:nth-child(9) {
+    width: 25%;
+    height: 15.625rem;
+    float: left;
+    background: url("../img/DBG1.png") no-repeat; }
+  .courseIsDiv:nth-child(10) {
+    width: 25%;
+    height: 15.625rem;
+    float: left; }
+  .organisator {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0; }
+  .organisator > h1, .orgInfo, .orgInfoH1, .partnersBlock {
+    border-bottom: 1px solid #e7e8ea;
+    width: 100%;
+    padding-bottom: 5.12%; }
+  .partnersBlock {
+    margin-top: 2.5%; }
+  .orgInfoH1 {
+    margin: 0; }
+  .orgLogo, .partnersLogo {
+    margin-left: 17.87%; }
+  .orgText, .partnersDescription {
+    width: 37.147%;
+    margin-top: 2.97%;
+    vertical-align: top; }
+  .orgText > h2 {
+    font-size: 2.30994em; }
+  .orgText > p {
+    font-size: 1.31997em; }
+  width: 41.23%;
+  .partnersDescription > h1 {
+    font-size: 2.30994em; }
+  .partnersDescription > p {
+    font-size: 1.31997em; }
+  .partnersRow {
+    border: none; } }
 
 @media screen and (max-width: 1025px) {
   html {
-    font-size: 10px !important; }
-  .subMenu1 {
+    font-size: 15.1519px !important; }
+  img {
+    max-width: 100%;
+    height: auto; }
+  .headers {
+    font-size: 3.7619em !important; }
+  nav > img {
+    display: block;
     float: right;
-    margin-left: 4.5rem; }
-  .subMenu1 > li {
-    display: none;
+    margin-top: 1.5%; }
+  nav > img:hover .submenu1 {
+    display: block; }
+  nav > .subMenu1 {
+    display: none; }
+  .subMenu2 {
+    margin-right: 5%; }
+  .standartsHumanRight, .endOfRegister {
+    width: 93.924%;
+    display: block;
+    margin: 3% 2.988%;
     text-align: center;
-    margin-top: 4rem; }
-  .regularText {
-    font-size: 1.5rem; }
-  .subMenu1 > li > a {
-    text-align: center; }
-  .subMenu1 > img {
-    float: right; }
-  .subMenu1:hover > li {
-    display: block; }
-  .divider, .viS {
-    display: none !important; }
-  .tillStop {
-    display: block;
-    margin: 10rem auto;
-    width: 80%; }
-  .tillStop > button {
-    font-size: 1.9rem; }
-  .info {
-    margin: 5rem auto;
-    text-align: center; }
-  .textRec {
-    text-align: center; }
-  .recommend > aside {
+    border-right: none;
+    border-bottom: 1px solid rgba(237, 237, 237, 0.2);
+    padding-bottom: 2%; }
+  .standartsHumanRight > h4 {
     width: 100%;
-    margin: 5rem auto; }
-  .recommend > aside > p {
-    width: 70%;
-    margin-top: 4rem; }
-  ul > img {
-    display: block; }
-  .evDtext {
-    display: inline-block;
-    width: 80%;
-    vertical-align: top; }
-  .t2 {
-    margin-top: 2rem;
-    width: 90rem;
-    font-size: 2.4rem; }
-  .aboutCourse {
-    text-align: left; }
-  .aboutCourse > p {
+    font-size: 1.58396em; }
+  .endOfRegister {
+    text-align: center;
+    margin-top: 0;
+    border: none;
+    padding: 0; }
+  .endOfRegister > h6 {
+    font-size: 1.05597em; }
+  .endOfRegister > p {
+    font-size: 0.98997em; }
+  .endOfRegister > button {
+    margin-top: 4%;
+    width: 32.09%;
+    padding: 2.1% 1.2%;
+    border: none;
+    color: white;
+    font-size: 1.25397em;
+    background: #c98c66;
+    letter-spacing: 1px; }
+  .courseIsRecomendedBy {
     text-align: center; }
+  .personWhoRecommended {
+    width: 91.6%;
+    margin: 1.3% 0 5.5% 2.6%; }
+  .personWhoRecommended1 {
+    display: none !important; }
+  .personWhoRecommendedPhoto {
+    width: 115px;
+    height: 115px;
+    -webkit-border-radius: 120px;
+            border-radius: 120px;
+    opacity: 0.9;
+    margin-top: 3%; }
+  .personWhoRecommendedDescription {
+    margin-top: 3%;
+    text-align: left; }
+  .arrows {
+    margin-top: 0.85em; }
+  .aboutCourseMainText {
+    width: 95.54%; }
+  .aboutRow {
+    margin-left: 2.526%;
+    width: 95.54%;
+    border: none !important;
+    margin-top: 0;
+    padding: 0; }
   .aboutCourse1 {
-    margin-top: 5rem;
-    width: 155rem; }
+    width: 100%;
+    margin: 5% 0 0 0 !important;
+    border-bottom: 1px solid #ededed;
+    padding-bottom: 5%; }
+  .aboutCourse1 > h1 {
+    font-size: 2.30994em;
+    padding-left: 1%; }
   .aboutCourse1 > p {
-    font-size: 2rem; }
-  .aboutCourseDivider2 {
+    padding-left: 1%;
+    width: 96.5161%;
+    font-size: 1.31997em; }
+  .aboutCourse1 > ul {
+    font-size: 1.31997em; }
+  .aboutCourse1 > ul > li {
+    padding-left: 1%;
+    font-size: 1.00317em; }
+  .durability {
+    margin-top: 5%; }
+  .expertsRow:nth-child(5), .expertHolder:nth-child(4), .expertHolder:nth-child(5), .assistants, .coordinatorsHolder {
+    display: none; }
+  .expertHolder {
+    width: 27%; }
+  .teamPhoto {
+    width: 250px;
+    height: 250px;
+    -webkit-border-radius: 150px;
+            border-radius: 150px;
+    border: 1px solid #ededed;
+    -webkit-box-shadow: 0 1.8125rem 2.875rem rgba(122, 135, 143, 0.66);
+            box-shadow: 0 1.8125rem 2.875rem rgba(122, 135, 143, 0.66); }
+  .courseIsDiv:nth-child(6) {
+    width: 100%;
+    height: 15.625rem; }
+  .courseIsDiv:nth-child(3) {
+    width: 100%;
+    height: 321px;
+    float: left;
+    background: url("../img/DBG1x1024.png") no-repeat; }
+  .courseIsDiv:nth-child(4) {
+    width: 50%;
+    height: 242px;
+    float: right;
+    background: url("../img/DBG3x1024.png") no-repeat; }
+  .courseIsDiv:nth-child(5) {
+    width: 50%;
+    height: 242px;
+    float: right;
+    background: url("../img/DBG2x1024.png") no-repeat; }
+  .courseIsDiv:nth-child(6) {
+    width: 100%;
+    height: 242px;
+    float: right;
+    background: white; }
+  .courseIsDiv:nth-child(7) {
+    width: 100%;
+    height: 242px;
+    float: left;
+    background: url("../img/DBG5x1024.png") no-repeat; }
+  .courseIsDiv:nth-child(8) {
+    width: 100%;
+    height: 243px;
+    float: right;
+    background: url("../img/DBG8.png") no-repeat; }
+  .courseIsDiv:nth-child(9) {
+    width: 50%;
+    height: 242px;
+    float: right;
+    background: url("../img/DBG7x1024.png") no-repeat; }
+  .courseIsDiv:nth-child(10) {
+    width: 50%;
+    height: 241px;
+    float: left; }
+  .courseIsDiv:nth-child(11) {
+    width: 100%;
+    height: 244px;
+    float: left; }
+  .numbers {
+    font-size: 57px; }
+  .organisator {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0; }
+  .organisator > h1, .orgInfo, .orgInfoH1, .partnersBlock {
+    border-bottom: 1px solid #e7e8ea;
+    width: 100%;
+    padding-bottom: 5.12%; }
+  .partnersBlock {
+    margin-top: 2.5%; }
+  .orgInfoH1 {
+    margin: 0; }
+  .orgLogo, .partnersLogo {
+    margin-left: 3%; }
+  .orgText, .partnersDescription {
+    width: 60.147%;
+    margin-top: 2.97%;
+    vertical-align: top; }
+  .orgText > h2 {
+    font-size: 2.30994em; }
+  .orgText > p {
+    font-size: 1.31997em; }
+  width: 41.23%;
+  .partnersDescription > h1 {
+    font-size: 2.30994em; }
+  .partnersDescription > p {
+    font-size: 1.31997em; }
+  .partnersRow {
+    border: none;
+    margin: 0; }
+  .contactsDiv {
+    border: none; }
+  .contactsDiv:nth-child(1) {
+    float: left;
+    width: 25%;
+    height: 105px;
+    margin-left: 10%; }
+  .contactsDiv:nth-child(2) {
+    width: 35%;
+    float: right; }
+  .contactsDiv:nth-child(3) {
+    float: left;
+    width: 25%;
+    height: 105px;
+    margin-left: 10%; }
+  .apply > p {
+    width: 30%; }
+  footer > p {
+    font-size: 1.18797em;
+    width: 50%;
+    margin-left: 20.582%; }
+  footer > a {
+    width: 18.0879%;
+    margin-left: 0.968%; }
+  .alignRight {
     display: block;
-    margin: 10rem auto 2rem;
-    width: 80%; }
-  .aboutCourseDividerRes {
+    margin: 0 auto;
+    text-align: center; } }
+
+@media screen and (max-width: 765px) {
+  html {
+    font-size: 12.1519px !important; }
+  img {
+    max-width: 100%;
+    height: auto; }
+  .headers {
+    font-size: 3.86771em !important; }
+  nav > img {
     display: block;
-    margin: 4rem auto;
-    width: 80%; }
-  /*.aboutCourseDividerRes{
+    float: right;
+    margin-top: 1.5%; }
+  nav > img:hover .submenu1 {
+    display: block; }
+  nav > .subMenu1 {
+    display: none; }
+  .subMenu2 {
+    margin-right: 5%; }
+  .standartsHumanRight, .endOfRegister {
+    width: 93.924%;
     display: block;
-  }*/
-  /*.expertsFirstRow:nth-child(3){
-    display:none;
-  }
-  .expertsFirstRow:nth-child(4){
-    display:none;
-  }*/ }
+    margin: 3% 2.988%;
+    text-align: center;
+    border-right: none;
+    border-bottom: 1px solid rgba(237, 237, 237, 0.2);
+    padding-bottom: 2%; }
+  .standartsHumanRight > h4 {
+    width: 100%;
+    font-size: 1.975em; }
+  .endOfRegister {
+    text-align: center;
+    margin-top: 0;
+    border: none;
+    padding: 0; }
+  .endOfRegister > h6 {
+    font-size: 1.31667em; }
+  .endOfRegister > p {
+    font-size: 1.23437em; }
+  .endOfRegister > button {
+    margin-top: 4%;
+    width: 32.09%;
+    padding: 2.1% 1.2%;
+    border: none;
+    color: white;
+    font-size: 1.56354em;
+    background: #c98c66;
+    letter-spacing: 1px; }
+  .courseIsRecomendedBy {
+    text-align: center; }
+  .personWhoRecommended {
+    width: 91.6%;
+    margin: 1.3% 0 5.5% 2.6%; }
+  .personWhoRecommended1 {
+    display: none !important; }
+  .personWhoRecommendedPhoto {
+    width: 115px;
+    height: 115px;
+    -webkit-border-radius: 120px;
+            border-radius: 120px;
+    opacity: 0.9;
+    margin-top: 3%; }
+  .personWhoRecommendedDescription {
+    margin-top: 3%;
+    text-align: left; }
+  .arrows {
+    margin-top: 0.85em; }
+  .aboutCourseMainText {
+    width: 95.54%; }
+  .aboutRow {
+    margin-left: 2.526%;
+    width: 95.54%;
+    border: none !important;
+    margin-top: 0;
+    padding: 0; }
+  .aboutCourse1 {
+    width: 100%;
+    margin: 5% 0 0 0 !important;
+    border-bottom: 1px solid #ededed;
+    padding-bottom: 5%; }
+  .aboutCourse1 > h1 {
+    font-size: 2.88021em;
+    padding-left: 1%; }
+  .aboutCourse1 > p {
+    padding-left: 1%;
+    width: 96.5161%;
+    font-size: 1.64583em; }
+  .aboutCourse1 > ul {
+    font-size: 1.64583em; }
+  .aboutCourse1 > ul > li {
+    padding-left: 1%;
+    font-size: 1.25083em; }
+  .durability {
+    margin-top: 5%; }
+  .expertsRow:nth-child(5), .expertHolder:nth-child(4), .expertHolder:nth-child(5), .assistants, .coordinatorsHolder {
+    display: none; }
+  .expertHolder {
+    width: 27%; }
+  .teamPhoto {
+    width: 250px;
+    height: 250px;
+    -webkit-border-radius: 150px;
+            border-radius: 150px;
+    border: 1px solid #ededed;
+    -webkit-box-shadow: 0 1.8125rem 2.875rem rgba(122, 135, 143, 0.66);
+            box-shadow: 0 1.8125rem 2.875rem rgba(122, 135, 143, 0.66); }
+  .courseIsDiv:nth-child(6) {
+    width: 100%;
+    height: 15.625rem; }
+  .courseIsDiv:nth-child(3) {
+    width: 100%;
+    height: 321px;
+    float: left;
+    background: url("../img/DBG1x1024.png") no-repeat; }
+  .courseIsDiv:nth-child(4) {
+    width: 50%;
+    height: 242px;
+    float: left;
+    background: url("../img/DBG3x1024.png") no-repeat; }
+  .courseIsDiv:nth-child(5) {
+    width: 50%;
+    height: 242px;
+    float: left;
+    background: url("../img/DBG2x1024.png") no-repeat; }
+  .courseIsDiv:nth-child(6) {
+    width: 100%;
+    height: 242px;
+    float: left;
+    background: white; }
+  .courseIsDiv:nth-child(7) {
+    width: 100%;
+    height: 242px;
+    float: left;
+    background: url("../img/DBG5x1024.png") no-repeat; }
+  .courseIsDiv:nth-child(8) {
+    width: 100%;
+    height: 243px;
+    float: left;
+    background: url("../img/DBG8.png") no-repeat; }
+  .courseIsDiv:nth-child(9) {
+    width: 50%;
+    height: 242px;
+    float: left;
+    background: url("../img/DBG7x1024.png") no-repeat; }
+  .courseIsDiv:nth-child(10) {
+    width: 50%;
+    height: 241px;
+    float: left; }
+  .courseIsDiv:nth-child(11) {
+    width: 100%;
+    height: 244px;
+    float: left; }
+  .numbers {
+    font-size: 57px; }
+  .organisator {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0; }
+  .organisator > h1, .orgInfo, .orgInfoH1, .partnersBlock {
+    border-bottom: 1px solid #e7e8ea;
+    width: 100%;
+    padding-bottom: 5.12%; }
+  .partnersBlock {
+    margin-top: 2.5%; }
+  .orgInfoH1 {
+    margin: 0; }
+  .orgLogo, .partnersLogo {
+    margin-left: 3%; }
+  .orgText, .partnersDescription {
+    width: 60.147%;
+    margin-top: 2.97%;
+    vertical-align: top; }
+  .orgText > h2 {
+    font-size: 2.88021em; }
+  .orgText > p {
+    font-size: 1.64583em; }
+  width: 41.23%;
+  .partnersDescription > h1 {
+    font-size: 2.88021em; }
+  .partnersDescription > p {
+    font-size: 1.64583em; }
+  .partnersRow {
+    border: none;
+    margin: 0; }
+  .contactsDiv {
+    border: none; }
+  .contactsDiv:nth-child(1) {
+    float: left;
+    width: 25%;
+    height: 105px;
+    margin-left: 10%; }
+  .contactsDiv:nth-child(2) {
+    width: 35%;
+    float: right; }
+  .contactsDiv:nth-child(3) {
+    float: left;
+    width: 25%;
+    height: 105px;
+    margin-left: 10%; }
+  .apply > p {
+    width: 30%; }
+  footer > p {
+    font-size: 1.48125em;
+    width: 50%;
+    margin-left: 20.582%; }
+  footer > a {
+    width: 18.0879%;
+    margin-left: 0.968%; }
+  .alignRight {
+    display: block;
+    margin: 0 auto;
+    text-align: center; } }
 
 /*@media screen and (max-width: 1680px) {
   html{
@@ -721,23 +1181,242 @@ footer > a {
     font-size:12px !important;
   }
 }*/
-@media screen and (max-width: 1919px) {
-  html {
-    font-size: 13.5px !important; } }
+/*
+@media screen and(max-width: 1919px){
+  html{
+    font-size: 13.5px !important;
+  }
+}
 
-@media screen and (max-width: 1623px) {
+@media screen and(max-width: 1623px){
+  html{
+    font-size: 12.5px !important;
+  }
+}*/
+@media screen and (max-width: 765px) {
   html {
-    font-size: 12.5px !important; } }
+    font-size: 12.1519px !important; }
+  img {
+    max-width: 100%;
+    height: auto; }
+  .headers {
+    font-size: 3.86771em !important; }
+  nav > img {
+    display: block;
+    float: right;
+    margin-top: 1.5%; }
+  nav > img:hover .submenu1 {
+    display: block; }
+  nav > .subMenu1 {
+    display: none; }
+  .subMenu2 {
+    margin-right: 5%; }
+  .standartsHumanRight, .endOfRegister {
+    width: 93.924%;
+    display: block;
+    margin: 3% 2.988%;
+    text-align: center;
+    border-right: none;
+    border-bottom: 1px solid rgba(237, 237, 237, 0.2);
+    padding-bottom: 2%; }
+  .standartsHumanRight > h4 {
+    width: 100%;
+    font-size: 1.975em; }
+  .endOfRegister {
+    text-align: center;
+    margin-top: 0;
+    border: none;
+    padding: 0; }
+  .endOfRegister > h6 {
+    font-size: 1.31667em; }
+  .endOfRegister > p {
+    font-size: 1.23437em; }
+  .endOfRegister > button {
+    margin-top: 4%;
+    width: 32.09%;
+    padding: 2.1% 1.2%;
+    border: none;
+    color: white;
+    font-size: 1.56354em;
+    background: #c98c66;
+    letter-spacing: 1px; }
+  .courseIsRecomendedBy {
+    text-align: center; }
+  .personWhoRecommended {
+    width: 91.6%;
+    margin: 1.3% 0 5.5% 2.6%; }
+  .personWhoRecommended1 {
+    display: none !important; }
+  .personWhoRecommendedPhoto {
+    width: 115px;
+    height: 115px;
+    -webkit-border-radius: 120px;
+            border-radius: 120px;
+    opacity: 0.9;
+    margin-top: 3%; }
+  .personWhoRecommendedDescription {
+    margin-top: 3%;
+    text-align: left; }
+  .arrows {
+    margin-top: 0.85em; }
+  .aboutCourseMainText {
+    width: 95.54%; }
+  .aboutRow {
+    margin-left: 2.526%;
+    width: 95.54%;
+    border: none !important;
+    margin-top: 0;
+    padding: 0; }
+  .aboutCourse1 {
+    width: 100%;
+    margin: 5% 0 0 0 !important;
+    border-bottom: 1px solid #ededed;
+    padding-bottom: 5%; }
+  .aboutCourse1 > h1 {
+    font-size: 2.88021em;
+    padding-left: 1%; }
+  .aboutCourse1 > p {
+    padding-left: 1%;
+    width: 96.5161%;
+    font-size: 1.64583em; }
+  .aboutCourse1 > ul {
+    font-size: 1.64583em; }
+  .aboutCourse1 > ul > li {
+    padding-left: 1%;
+    font-size: 1.25083em; }
+  .durability {
+    margin-top: 5%; }
+  .expertsRow:nth-child(5), .expertHolder:nth-child(4), .expertHolder:nth-child(5), .assistants, .coordinatorsHolder {
+    display: none; }
+  .expertHolder {
+    width: 27%; }
+  .teamPhoto {
+    width: 250px;
+    height: 250px;
+    -webkit-border-radius: 150px;
+            border-radius: 150px;
+    border: 1px solid #ededed;
+    -webkit-box-shadow: 0 1.8125rem 2.875rem rgba(122, 135, 143, 0.66);
+            box-shadow: 0 1.8125rem 2.875rem rgba(122, 135, 143, 0.66); }
+  .courseIsDiv:nth-child(6) {
+    width: 100%;
+    height: 15.625rem; }
+  .courseIsDiv:nth-child(3) {
+    width: 100%;
+    height: 321px;
+    float: left;
+    background: url("../img/DBG1x1024.png") no-repeat; }
+  .courseIsDiv:nth-child(4) {
+    width: 50%;
+    height: 242px;
+    float: left;
+    background: url("../img/DBG3x1024.png") no-repeat; }
+  .courseIsDiv:nth-child(5) {
+    width: 50%;
+    height: 242px;
+    float: left;
+    background: url("../img/DBG2x1024.png") no-repeat; }
+  .courseIsDiv:nth-child(6) {
+    width: 100%;
+    height: 242px;
+    float: left;
+    background: white; }
+  .courseIsDiv:nth-child(7) {
+    width: 100%;
+    height: 242px;
+    float: left;
+    background: url("../img/DBG5x1024.png") no-repeat; }
+  .courseIsDiv:nth-child(8) {
+    width: 100%;
+    height: 243px;
+    float: left;
+    background: url("../img/DBG8.png") no-repeat; }
+  .courseIsDiv:nth-child(9) {
+    width: 50%;
+    height: 242px;
+    float: left;
+    background: url("../img/DBG7x1024.png") no-repeat; }
+  .courseIsDiv:nth-child(10) {
+    width: 50%;
+    height: 241px;
+    float: left; }
+  .courseIsDiv:nth-child(11) {
+    width: 100%;
+    height: 244px;
+    float: left; }
+  .numbers {
+    font-size: 57px; }
+  .organisator {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0; }
+  .organisator > h1, .orgInfo, .orgInfoH1, .partnersBlock {
+    border-bottom: 1px solid #e7e8ea;
+    width: 100%;
+    padding-bottom: 5.12%; }
+  .partnersBlock {
+    margin-top: 2.5%; }
+  .orgInfoH1 {
+    margin: 0; }
+  .orgLogo, .partnersLogo {
+    margin-left: 3%; }
+  .orgText, .partnersDescription {
+    width: 60.147%;
+    margin-top: 2.97%;
+    vertical-align: top; }
+  .orgText > h2 {
+    font-size: 2.88021em; }
+  .orgText > p {
+    font-size: 1.64583em; }
+  width: 41.23%;
+  .partnersDescription > h1 {
+    font-size: 2.88021em; }
+  .partnersDescription > p {
+    font-size: 1.64583em; }
+  .partnersRow {
+    border: none;
+    margin: 0; }
+  .contactsDiv {
+    border: none; }
+  .contactsDiv:nth-child(1) {
+    float: left;
+    width: 25%;
+    height: 105px;
+    margin-left: 10%; }
+  .contactsDiv:nth-child(2) {
+    width: 35%;
+    float: right; }
+  .contactsDiv:nth-child(3) {
+    float: left;
+    width: 25%;
+    height: 105px;
+    margin-left: 10%; }
+  .apply > p {
+    width: 30%; }
+  footer > p {
+    font-size: 1.48125em;
+    width: 50%;
+    margin-left: 20.582%; }
+  footer > a {
+    width: 18.0879%;
+    margin-left: 0.968%; }
+  .alignRight {
+    display: block;
+    margin: 0 auto;
+    text-align: center; } }
 
 * {
   padding: 0;
   margin: 0; }
 
 html {
-  font-size: 16px; }
+  font-size: 21px; }
+
+.headers {
+  font-size: 4.9375em; }
 
 .standartMargin {
-  margin: 5rem 5rem; }
+  margin: 3.125rem 3.125rem; }
 
 .fontCirceBold {
   font-family: Circe;
@@ -757,16 +1436,16 @@ html {
 .buttonStyle {
   border: none;
   color: white;
-  font-size: 2.3rem; }
+  font-size: 1.4375rem; }
 
 .clear {
   clear: both; }
 
 .circle {
-  width: 18rem;
-  height: 18rem;
-  -webkit-border-radius: 9rem;
-  border-radius: 9rem; }
+  width: 11.25rem;
+  height: 11.25rem;
+  -webkit-border-radius: 5.625rem;
+  border-radius: 5.625rem; }
 
 .photoTeamPerson {
   background-image: url(../img/experts.png);
@@ -777,14 +1456,18 @@ html {
   display: inline-block; }
 
 section > h1 {
-  font-size: 6rem;
+  font-size: 3.75rem;
   text-align: center; }
 
 .smallText {
-  font-size: 1.5rem; }
+  font-size: 0.9375rem; }
 
 .border-bottom {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
 
 .borderRight {
   border-right: 1px solid rgba(255, 255, 255, 0.1); }
+
+img {
+  max-width: 100%;
+  height: auto; }

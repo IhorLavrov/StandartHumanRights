@@ -11,15 +11,20 @@
 @import "_contats";
 @import "_footer";
 @import "_media";
+@import "_media764px";
+
 *{
   padding:0;
   margin:0;
 }
 html{
-  font-size: 16px;
+  font-size:21px;
 }
 body{
 
+}
+.headers{
+  font-size: fs(60);
 }
 .standartMargin{
   margin:rem(50px) rem(50px);
@@ -81,4 +86,9 @@ section>h1{font-size: rem(60px);
 }
 .borderRight{
   border-right:1px solid rgba(255,255,255, 0.1);
+}
+
+img{
+  max-width:100%;
+  height: auto;
 }

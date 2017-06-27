@@ -1,33 +1,39 @@
 @import "_variables";
 footer{
-  display: inline-block;
-  padding: rem(33px) 0;
-  margin: 0 rem(50px);
+  display: block;
+  width:94.7916%;
+  margin:0 auto;
 }
 
 footer>img{
   display: inline-block;
   vertical-align: middle;
-
+  width: 9.34%;
+  max-width:170px;
 }
-footer>p{margin-left: rem(47px);
+footer>p{
+  margin-left: 2.582%;
   vertical-align: middle;
   display: inline-block;
-  width:rem(450px);
+  width:23.6263%;
   opacity:0.4;
+  font-size: fs(18);
 }
 footer>a{
   vertical-align: middle;
   display: inline-block;
-  width:rem(200px);
+  width:14.0879%;
   text-decoration: none;
-  margin-right: rem(320px);
   opacity:0.4;
   text-align: center;
+  font-size: fs(18);
+  margin-left: 2.968%;
   border-bottom: 0.5px solid #6c7075;
 }
 .alignRight{
   text-align: right;
-
+  margin-left: 22.71%;
+  vertical-align: middle;
+  display: inline-block;
 }
 

@@ -1,92 +1,92 @@
 @import "_variables";
 .courseIs{
-  margin: rem(130px) rem(50px) 0 rem(50px);
+  margin: 7.29% 2.6% 0 2.6%;
 
 }
 .courseIs>h1{
-  font-size:60px;
+
   text-align: center;
 }
 .courseIsDivider1{
-  width:rem(140px);
+  width:14.29%;
   height:2px;
   margin:0 auto;
   display: block;
-  margin-bottom: rem(100px  );
-  margin-top: rem(100px);
+  margin-bottom: 4%;
+  margin-top: 4%;
 }
 .courseIsDiv:nth-child(6){
-   width:rem(850px);
-   height:rem(320px);
+   width:50%;
+   height:15.625rem;
   float:right;
  }
 .courseIsDiv:nth-child(5){
-  width:rem(455px);
-  height:rem(330px);
+  width:25%;
+  height:15.625rem;
   float:right;
-  background-image: url('../img/DBG2.png');
+  background: url('../img/DBG2.png')no-repeat;
 }
 .courseIsDiv:nth-child(4){
-  width:rem(455px);
-  height:rem(330px);
+  width:25%;
+  height:15.625rem;
   float:right;
-  background-image: url('../img/DBG3.png');
+  background: url('../img/DBG3.png')no-repeat;
 }
 .courseIsDiv:nth-child(3){
-   width:rem(910px);
-   height:rem(650px);
+   width:50%;
+   height:31.25rem;
    float:left;
-   background-image: url('../img/DBG1.png');
+   background: url('../img/DBG1.png')no-repeat;
  }
 .courseIsDiv:nth-child(7){
-  width:rem(910px);
-  height:rem(325px);
+  width:50%;
+  height:15.625rem;
   float:left;
-  background-image: url('../img/DBG2.png');
+  background: url('../img/DBG5.png')no-repeat;
 }
 .courseIsDiv:nth-child(10){
-  width:rem(455px);
-  height:rem(325px);
+  width:25%;
+  height:15.625rem;
   float:left;
 
 }
 .courseIsDiv:nth-child(9){
-  width:rem(455px);
-  height:rem(325px);
+  width:25%;
+  height:15.625rem;
   float:left;
-  background-image: url('../img/DBG1.png');
+  background: url('../img/DBG1.png')no-repeat;
 }
 .courseIsDiv:nth-child(8){
-  width:rem(910px);
-  height:rem(650px);
+  width:50%;
+  height:31.25rem;
   float:right;
-  background-image: url('../img/DBG8.png');
+  background: url('../img/DBG8.png')no-repeat;
 }
 
 .numbers{
   color:#c98c66;
-  font-size:rem(54px);
+  font-size:fs(54);
 
 }
 .descriptionMarg{
-  margin-left: rem(60px);
-  margin-top:rem(60px);
+  margin-left: 2%;
+  margin-top:2%;
 }
 .description1{
-  font-size: rem(54px);
+  font-size: fs(54);
   color:white;
 }
 
 .description2{
-  font-size:rem(24px);
+  font-size:fs(24);
   color:black;
 }
 .description3{
-  font-size: rem(24px);
+  font-size: fs(24);
   color:white;
 }
 
 .description4{
   color:black;
-  font-size:rem(38px);
+  font-size:fs(38);
 }

@@ -1,9 +1,140 @@
+@function fs($size) {
+  $remSize: $size / 15.1519;
+  @return $remSize * 1em;
+}
 @media screen and (max-width: 1367px) {
   html{
-    font-size:13.5px !important;
+    font-size:15.1519px !important;
   }
   img{
     max-width:100%;
     height: auto;
+  }
+  .headers{
+    font-size: fs(57);
+  }
+  .aboutCourseMainText{
+    width:95.54%
+  }
+  .aboutRow{
+    margin-left:2.526%;
+    width:95.54%;
+  }
+  .aboutCourse1{
+    width: 45.91%;
+  }
+  .aboutCourse1>h1{
+    font-size: fs(35)
+  }
+  .aboutCourse1>p{
+    width: 96.5161%;
+    font-size:fs(20);
+  }
+  .aboutCourse1>ul{
+    font-size:fs(20);
+  }
+  .expertsRow:nth-child(5), .assistants, .coordinatorsHolder{
+    display:none;
+  }
+  .teamPhoto{
+    width:200px;
+    height: 200px;
+    border-radius: 150px;
+    border: 1px solid #ededed;
+    box-shadow: 0 rem(29px) rem(46px) rgba(122,135,143,0.66);
+  }
+  .courseIsDiv:nth-child(6){
+    height:15.625rem;
+  }
+
+
+  .courseIsDiv:nth-child(3){
+    width:50%;
+    height:480px;
+    float:left;
+    background: url('../img/DBG1.png')no-repeat;
+  }
+  .courseIsDiv:nth-child(4){
+    width:25%;
+    height:240px;
+    float:right;
+    background: url('../img/DBG3.png')no-repeat;
+  }
+  .courseIsDiv:nth-child(5){
+     width:25%;
+     height:240px;
+     float:right;
+     background: url('../img/DBG2.png')no-repeat;
+   }
+  .courseIsDiv:nth-child(6){
+    width:50%;
+    height:240px;
+    float:right;
+    background:white;
+  }
+  .courseIsDiv:nth-child(7){
+    width:50%;
+    height:240px;
+    float:left;
+    background: url('../img/DBG5.png')no-repeat;
+  }
+
+  .courseIsDiv:nth-child(8){
+    width:50%;
+    height:31.25rem;
+    float:right;
+    background: url('../img/DBG8.png')no-repeat;
+  }
+  .courseIsDiv:nth-child(9){
+    width:25%;
+    height:15.625rem;
+    float:left;
+    background: url('../img/DBG1.png')no-repeat;
+  }
+  .courseIsDiv:nth-child(10){
+    width:25%;
+    height:15.625rem;
+    float:left;
+  }
+  .organisator{
+    width: 100%;
+    padding-left:0;
+    padding-right:0;
+  }
+  .organisator>h1, .orgInfo, .orgInfoH1, .partnersBlock{
+    border-bottom: 1px solid #e7e8ea;
+    width:100%;
+    padding-bottom: 5.12%;
+  }
+  .partnersBlock{
+    margin-top: 2.5%;
+  }
+  .orgInfoH1{
+    margin:0;
+  }
+  .orgLogo, .partnersLogo{
+    margin-left: 17.87%;
+  }
+  .orgText, .partnersDescription{
+    width: 37.147%;
+    margin-top: 2.97%;
+    vertical-align: top;
+  }
+  .orgText>h2{
+    font-size: fs(35);
+  }
+  .orgText>p{
+    font-size:fs(20);
+  }
+  .partnersDescription{}
+  width:41.23%;
+  .partnersDescription>h1{
+    font-size: fs(35);
+  }
+  .partnersDescription>p{
+    font-size: fs(20);
+  }
+  .partnersRow{
+    border:none;
   }
 }

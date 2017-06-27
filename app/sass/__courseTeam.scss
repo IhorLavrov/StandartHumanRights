@@ -2,27 +2,24 @@
 .courseTeam{
   background: #fbfcfd;
   text-align: center;
-  padding: rem(130px) rem(50px) rem(60px) rem(50px);
+  padding: 6.6666% 2.60% 2.90% 2.60%;
 }
 .courseTeamDivider1{
   margin:0 auto;
 }
-.courseTeam>h1{
-  font-size:rem(60px);
 
-}
 .courseTeam>p{
-  font-size: rem(35px);
+  font-size: fs(35);
   opacity: 0.2;
-  margin-bottom:rem(50px);
+  margin-bottom:2.604%;
 }
 .expertsRow{
-  margin: rem(52px) 0 rem(80px) 0;
+  margin: 2.6% 0 3.2% 0;
   text-align: center;
 }
 .teamPhoto{
-  width:rem(240px);
-  height: rem(240px);
+  width:250px;
+  height: 250px;
   border-radius: 150px;
   border: 1px solid #ededed;
   box-shadow: 0 rem(29px) rem(46px) rgba(122,135,143,0.66);
@@ -32,40 +29,33 @@
   background-size: cover;
 }
 .expertHolder{
-   margin: 0 rem(51px) 0 rem(51px);
+  width: 13%;
+   margin: 0 2.6% 0 2.6%;
+  display: inline-block;
  }
 .expertHolder1{
-  margin: 0 rem(51px) 0 rem(51px); ;
+  margin: 0 2.6% 0 2.6%;
 }
-.expertHolder:last-child{
-  height:rem(352px);
-  border:none;
-}
-.expertHolder:last-child>.photoTeamPerson{
-  background-image: url(../img/others.png);;
-  background-size: cover;
-}
-.expertHolder:last-child>.teamPhoto{
-  border:none;
-}
+
+
 .name{
-  font-size: rem(30px);
-  margin-top: rem(25px);
+  font-size: fs(30);
+  margin-top: 10%;
   text-align: center;
 }
 .posada{
-  font-size:rem(24px);
+  font-size:fs(24);
   opacity: 0.4;
-  margin-top:rem(10px);
+  margin-top:2%;
   text-align: center;
 }
 .assistants{
-  margin-top:rem(90px);
+  margin-top:4.5%;
 }
 .assistantsHolder{
-  margin: 0 0 0 rem(105px);
+  margin: 0 0 0 4.5%;
 }
 .courseTeamHeader{
-  font-size: rem(35px);
+  font-size: fs(35);
   opacity: 0.2;
 }
